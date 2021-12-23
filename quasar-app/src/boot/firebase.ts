@@ -19,14 +19,7 @@ import { initializeAppCheck, ReCaptchaV3Provider } from 'firebase/app-check';
 // eslint-disable-next-line prefer-const
 let firestoreSettings: unknown = {};
 
-const config = {
-  apiKey: 'AIzaSyD35VxqB01D-d1wxvixZONVK7GL8pGGk2Q',
-  authDomain: 'smoke-detectors-qld.firebaseapp.com',
-  projectId: 'smoke-detectors-qld',
-  storageBucket: 'smoke-detectors-qld.appspot.com',
-  messagingSenderId: '350089064821',
-  appId: '1:350089064821:web:343673992ab75525ace33c',
-};
+const config = {};
 
 const firebaseApp = initializeApp(config);
 
